@@ -21,7 +21,6 @@ run_show_help=false
 press_enter_continue() {
     printf "Press \033[32mEnter\033[0m to continue.\n"
     read -r
-    printf "$0"
     exec "$0"
 }
 
